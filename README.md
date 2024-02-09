@@ -29,9 +29,11 @@
 ### Ответ:
 
 ```
-
+select round (sum(index_length) / sum(data_length) * 100) as '% index'
+from INFORMATION_SCHEMA.TABLES;
 ```
 
+![Снимок93](https://github.com/Makarov-Denis/12_05-SQL-Index/assets/148921246/ad954d00-fdfe-46dc-a7de-1bc7df60ffaf)
 
 ---
 
